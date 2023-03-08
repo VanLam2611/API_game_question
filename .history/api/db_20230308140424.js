@@ -9,4 +9,5 @@ const db = mysql.createConnection({
   database: process.env.DB_DATABASE || "epiz_33697982_question"
 });
 
+)
 module.exports = db
